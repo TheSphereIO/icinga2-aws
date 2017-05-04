@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/TheSphereIO/icinga2-aws/master/Screen%20Shot%202017-05-04%20at%2016.15.34.png)
+
 <snippet>
   <content>
 # Icinga2-AWS
