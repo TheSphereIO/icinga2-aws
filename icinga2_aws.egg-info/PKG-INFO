@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: icinga2-aws
+Version: 0.3
+Summary: Script to dynamically create hosts in Icinga 2 based on AWS Tags
+Home-page: UNKNOWN
+Author: Mathias Scherer
+Author-email: scherer.mat@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

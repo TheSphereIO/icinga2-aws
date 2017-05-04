@@ -64,14 +64,15 @@ ec2 = boto3.resource('ec2')
 templateHost = args.templateHost.read()
 templateCheck = args.templateCheck.read()
 
-instances = ec2.instances.filter(
-    Filters=filters)
+#instances = ec2.instances.list
+instances = ec2.instances.filter()
 
 for instance in instances:
     if not os.path.exists(icinga2ConfigDir + "conf.d/hosts/" + instance.id):
+        print(instance.id)
         os.makedirs(icinga2ConfigDir + "conf.d/hosts/" + instance.id)
         writeTemplate(templateHost, instance.id, instance.id)
-        writeTemplate(templateCheck, 'checks', instance.id)
+        #writeTemplate(templateCheck, 'checks', instance.id)
 
 cleanupHosts(instances)
 

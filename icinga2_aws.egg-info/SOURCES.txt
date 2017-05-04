@@ -1,0 +1,6 @@
+setup.py
+icinga2_aws.egg-info/PKG-INFO
+icinga2_aws.egg-info/SOURCES.txt
+icinga2_aws.egg-info/dependency_links.txt
+icinga2_aws.egg-info/requires.txt
+icinga2_aws.egg-info/top_level.txt
